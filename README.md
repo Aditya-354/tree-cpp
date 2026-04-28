@@ -1,5 +1,9 @@
 # Tree CLI tool (c++ learning project)
 
+A simple CLI tool that mimics the Linux 'tree' command using modern c++ features like std::filesystem and std::visit, etc.
+
+## Acknowledgements
+
 This project has been built by following a tutorial from [https://youtu.be/Wrstsv67_Zo].
 
 I implemented the code myself while learning concepts like:
