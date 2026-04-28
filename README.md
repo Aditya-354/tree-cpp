@@ -16,9 +16,39 @@ I implemented the code myself while learning concepts like:
 - directory traversal
 
 ## Usage:
+```bash
+tree [-L depth] [--path=/path/to/dir]
+```
+- -L INTEGER,\
+> specifies the depth of branches to display in the output.\
+- --path=/path/to/dir,\
+> specifies the path of the directory to display.
 
-tree \[-L / --path=\]\
--L INTEGER,\
-                specifies the depth of branches to display in the output.\
---path=/path/to/dir,\
-                specifies the path of the directory to display.
+## Example output:
+
+```bash
+./tree -L 1 --path=/home/asrwx/workspace
+---OPTIONS---
+dir to print: workspace
+maximum depth: 1
+.
+├── Notes
+├── ostep
+├── projects
+├── kilo
+├── digital_clock
+├── spinning_cube
+├── rust_sandbox
+├── tictactoe
+├── repos
+├── .config
+├── cpp_sandbox
+├── c
+├── tetris
+├── assembly-tutorial
+├── neovim
+├── cherno
+├── foo
+├── .vscode
+└── Tree-cpp
+```
