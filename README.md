@@ -13,8 +13,8 @@ I implemented the code myself while learning concepts like:
 
 ## Usage:
 
-tree \[-L / --path=\]
+tree \[-L / --path=\]\
 -L INTEGER,
-                specifies the depth of branches to display in the output.
+                specifies the depth of branches to display in the output.\
 --path=/path/to/dir,
                 specifies the path of the directory to display.
