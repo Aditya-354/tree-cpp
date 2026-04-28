@@ -20,8 +20,8 @@ I implemented the code myself while learning concepts like:
 tree [-L depth] [--path=/path/to/dir]
 ```
 - -L INTEGER,\
-> specifies the depth of branches to display in the output.\
-- --path=/path/to/dir,\
+> specifies the depth of branches to display in the output.
+- --path=/path/to/dir,
 > specifies the path of the directory to display.
 
 ## Example output:
