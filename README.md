@@ -1,4 +1,4 @@
-# tree command written in c++
+# Tree CLI tool (c++ learning project)
 
 This project has been built by following a tutorial from [https://youtu.be/Wrstsv67_Zo].
 
