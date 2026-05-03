@@ -151,7 +151,7 @@ int main(int argc, char** argv) {
     PrintOptions print_options { create_print_options(std::span<char*>(argv, argc)) };
 
     std::cout << "---OPTIONS---\n";
-    std::cout << "dir to print: " << print_options.dir_to_print.filename().string() << '\n';
+    std::cout << "dir to print: " << print_options.dir_to_print.string() << '\n';
     std::cout << "maximum depth: " << (
             print_options.max_depth.has_value() ?
             std::to_string(*print_options.max_depth) 
